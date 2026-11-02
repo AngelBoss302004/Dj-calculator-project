@@ -1,0 +1,39 @@
+###
+POST http://localhost:host/addition
+Content-Type: application/json
+
+
+{
+    "num1":500,
+    "num2":10,
+
+}
+###
+POST http://localhost:host/substraction
+Content-Type: application/json
+
+
+{
+    "num1":500,
+    "num2":10,
+
+}
+###
+post http://localhost:host/percentage
+Content-Type: application/json
+
+
+{
+    "obtained marks":400,
+    "total marks":500
+
+}
+###
+POST http://127.0.0.1:8000/rectangle/
+Content-Type: application/json
+
+
+{
+    "length": 10,
+    "width": 5
+}
